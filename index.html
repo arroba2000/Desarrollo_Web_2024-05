@@ -3,3 +3,11 @@
 <h1>Área del Círculo</h1>
 <h1>Área del Círculo</h1>
 <h1>Área del Círculo</h1>
+<script>
+	document.getElementById('circleForm').addEventListener('submit', function(event) {
+		event.preventDefault();
+		const radius = parseFloat(document.getElementById('radius').value);
+		const area = Math.PI * Math.pow(radius, 2);
+		document.getElementById('result').textContent = ;
+		});
+    </script>
